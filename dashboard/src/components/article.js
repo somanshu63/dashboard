@@ -15,7 +15,6 @@ class Article extends React.Component {
           article: article,
         });
       }
-      return article;
     });
   }
 

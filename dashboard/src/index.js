@@ -24,10 +24,10 @@ root.render(
       <Route path="/help">
         <Help />
       </Route>
+      <Route path="/articles/:slug" component={Article}></Route>
       <Route path="*">
         <Error />
       </Route>
-      <Route path="/articles/:slug" component={Article}></Route>
     </div>
   </BrowserRouter>
 );
